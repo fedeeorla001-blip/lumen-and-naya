@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lumen Naya</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    canvas {
+      border: 4px solid #fff;
+      background-color: #5c94fc; /* Azzurro cielo */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Canvas di gioco -->
+  <canvas id="gameCanvas" width="400" height="224"></canvas>
+
+  <!-- Carica il motore di gioco principale -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
